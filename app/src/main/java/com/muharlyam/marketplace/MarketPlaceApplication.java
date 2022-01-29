@@ -21,6 +21,9 @@ public class MarketPlaceApplication extends Application {
         applicationComponent = buildComponent();
 
         applicationComponent.inject(this);
+
+
+
     }
 
     public static ApplicationComponent getApplicationComponent() {

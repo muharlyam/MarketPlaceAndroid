@@ -137,7 +137,7 @@ public class SignUpFragment extends Fragment implements View.OnClickListener {
                                             userDataHandler.createUser(getTokenResult.getToken(), currentUser.getEmail());
 
                                     if (result.isSuccessful()) {
-                                        // todo
+                                        System.out.println(result.getResult().toString());
 
                                     }
                                 });
