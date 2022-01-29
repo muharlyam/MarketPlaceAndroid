@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "128154773507",
+    "project_id": "marketplace-336916",
+    "storage_bucket": "marketplace-336916.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128154773507:android:b5b8e37e224b388a8d0636",
+        "android_client_info": {
+          "package_name": "com.muharlyam.marketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128154773507-ldnk7jlku5qkfe897sshtu9g9jmspocb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muharlyam.marketplace",
+            "certificate_hash": "157f2acb469212d2118530ba2356a9e6dc2100f2"
+          }
+        },
+        {
+          "client_id": "128154773507-du2lm8cpse7fabmjo16hv3ffnsv5ujhj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4u8NGdX1_WiS3u5gVeylEXF0YXPaKGMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128154773507-du2lm8cpse7fabmjo16hv3ffnsv5ujhj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
