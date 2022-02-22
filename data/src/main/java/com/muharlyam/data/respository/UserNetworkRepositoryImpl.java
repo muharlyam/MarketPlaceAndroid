@@ -17,13 +17,13 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class UserNetworkRepositoryImpl implements UserNetworkRepository {
 
-    private RetrofitService retrofitService;
-
-    private Gson gson = new Gson();
+    private final RetrofitService retrofitService;
+    private final String BASE_URL = "http://10.0.2.2:8080";
+    private final Gson gson = new Gson();
 
     public UserNetworkRepositoryImpl() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://10.0.2.2:8080")
+                .baseUrl(BASE_URL)
                 .addConverterFactory(ScalarsConverterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();

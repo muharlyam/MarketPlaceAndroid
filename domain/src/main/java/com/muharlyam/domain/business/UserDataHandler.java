@@ -10,7 +10,6 @@ import com.muharlyam.domain.repository.UserNetworkRepository;
 public class UserDataHandler {
 
     private final UserDbRepository userDbRepository;
-
     private final UserNetworkRepository userNetworkRepository;
 
     public UserDataHandler(UserDbRepository userDbRepository, UserNetworkRepository userNetworkRepository) {
